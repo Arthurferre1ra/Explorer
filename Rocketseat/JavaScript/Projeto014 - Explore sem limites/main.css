@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    background: #F9F4FB;
+    max-width: 43.0rem;
+}
+
+#astro {
+    margin-bottom: 17px;
+    margin-left: 1rem;
+}
+
+#explore > span {
+    font-size: 3.2rem;
+    color: #B52184;
+    font-weight: bolder;
+}
+
+#explore {
+    width: 31.0rem;
+    height: 5.9rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    
+}
+
+#seta {
+    margin-bottom: 9.3rem;
+    margin-left: 5.3rem;
+}
+
+#seta > img {
+    margin-left: 13rem;
+}
+
+
+
+main {
+    background: rgb(8,0,255);
+background: linear-gradient(90deg, rgba(8,0,255,1) 0%, rgba(55,51,103,1) 97%);
+    padding: 5.3rem 3.9rem 4rem ;
+}
+
+#about {
+
+    
+    padding: 2.6rem;
+    border: 1px solid #000000;
+    border-radius: 1.9rem;
+    background-color: #FFFFFF;
+    margin-bottom: 5rem;
+    
+}
+
+ span {
+    font-size: 2.9rem;
+    font-weight: bolder;
+    color: #B52184;
+}
+
+#about > p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #312D64;
+}
+
+#about > img {
+    padding-bottom: 3.3rem;
+}
+
+form {
+    margin: 7.8rem 3.9rem 6.5rem 4.0rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color: #B52184;
+    margin-bottom: 4.3rem;
+}
+
+input {
+    width: 25.1rem;
+    height: 4.8rem;
+    background-position: start;
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    padding-left: 5.0rem;
+    margin-bottom: 2.4rem;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    padding: 1.6rem;
+    color: #312D64;
+    margin-bottom: 2.4rem;
+}
+
+input::placeholder {
+    color: #312D64;
+}
+
+textarea::placeholder {
+    color: #312D64;
+}
+
+button {
+    font-size: 1.4rem;
+    background: rgb(8,0,255);
+    background: linear-gradient(90deg, rgba(8,0,255,1) 0%, rgba(55,51,103,1) 97%);
+    padding: 1.1rem 1.6rem;
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    color: #FFFFFF;
+}
+
+
+
+footer {
+    background: linear-gradient(90deg, rgba(8,0,255,1) 0%, rgba(55,51,103,1) 97%);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3.2rem 1.6rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 1890px;
+        height: 836px;
+    }
+
+    #top {
+        width: 1440px;
+        height: 736px;
+    }
+
+    #astro {
+        width: 600px;
+        height: 612px;
+        position: absolute;
+        margin-left: 661px;
+    }
+
+    #seta {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 100px;
+    }
+
+    #seta > img {
+        
+        width: 58px;
+        height: 105px;
+        margin-top: 179px;
+        margin-right: 700px;
+        position: absolute;
+    }
+
+    #explore > span {
+        font-size: 58px;
+    }
+
+    #explore {
+        width: 554px;
+        height: 95px;
+        font-size: 32px;
+        text-align: start;
+    }
+
+    
+    
+    main {
+        display: flex;
+    }
+
+    #about {
+        margin-right: 60px;
+        width: 366px;
+        margin-left: 40px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    input {
+        width: 592px;
+    }
+
+    textarea {
+        width: 610px;
+    }
+
+    form {
+        width: 595px;
+        height: 422px;
+    }
+
+    button {
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    
+    
+}

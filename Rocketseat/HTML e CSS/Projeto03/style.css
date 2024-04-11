@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Mulish&family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+#logo {
+    padding-right: 120vh;
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Mulish';
+}
+li {
+    padding-right: 55px;
+}
+header > strong {
+    color: #1F1534;
+}
+#links {
+    margin-right: 120px;
+}
+main {
+    margin-left: 130px;
+    margin-top: 90px;
+    width: 1008px;
+    height: 433.64px;
+    display: flex;
+}
+section {
+    padding-top: 49px;
+}
+#titulo {
+    font-family: 'Mulish';
+    font-weight: normal;
+    font-size: 49px;
+}
+span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+#text2 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 30px;
+    color: #7D7987;
+}
+button {
+    background: #69B99D;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 4px;
+    width: 20vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dm Sans';
+    margin-top: 32px;
+}
+#wpp {
+    padding-right: 5px;
+}
+#garota {
+    position: absolute;
+    margin-left: 113vh;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+#balls {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 3%;
+}
+

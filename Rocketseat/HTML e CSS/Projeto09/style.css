@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish';
+    background: #1E1E1E;
+    margin: 70px 100px;
+}
+
+header {
+    margin: auto;
+    
+}
+
+span {
+    color: #02799D;
+    font-size: 58.29px;
+    width: 584px;
+    height: 73px;
+    font-weight: bold;
+    margin: auto;
+}
+
+header > p {
+    font-size: 32px;
+    color: #E1E1E6;
+    margin: auto;
+}
+
+#galaxias {
+    width: 1222px;
+    height: 952px;
+    margin-top: 62px;
+    margin-left: 100px;
+    margin: auto;
+}
+
+#galaxias > h1 {
+    margin: auto;
+    
+}
+
+
+#col-1 {
+    width: 1218px;
+    height: 448px;
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    grid-template-rows: 448px 448px 448px;
+    gap: 60px;
+}
+
+img {
+    border: 1px solid #323238;
+    border-radius: 8px 8px 0px 0px;
+    }
+
+
+#galaxia1 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 8px;
+    
+}
+
+#galaxia1 > h1, p {
+   margin: auto;
+}
+
+#galaxia1 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia1 > p {
+    font-weight: 500;
+    font-size: 19.38px;
+    margin-top: 16px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+#galaxia2 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#galaxia2 > h1, p {
+    margin: auto;
+}
+
+#galaxia2 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia2 > p {
+    font-weight: 500;
+    font-size: 19.38px;
+    margin-top: 16px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+#galaxia3 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#galaxia3 > h1, p {
+    margin: auto;
+}
+
+#galaxia3 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia3 > p {
+    font-weight: 500;
+    font-size: 19.38px;
+    margin-top: 16px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+#galaxia4 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#galaxia4 > h1, p {
+   margin: auto;
+}
+
+#galaxia4 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia4 > p {
+    font-weight: 600;
+    font-size: 17.38px;
+    margin-top: 12px;
+    margin-left: 38px;
+    margin-right: 38px;
+    
+}
+
+#galaxia5 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#galaxia5 > h1, p {
+    margin: auto;
+}
+
+#galaxia5 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia5 > p {
+    font-weight: 600;
+    font-size: 17.38px;
+    margin-top: 12px;
+    margin-left: 38px;
+    margin-right: 38px;
+    
+}
+
+#galaxia6 {
+    background: #202024;
+    color: #C4C4CC;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#galaxia6 > h1, p {
+    margin: auto;
+}
+
+#galaxia6 > h1 {
+    font-weight: bolder;
+    font-size: 35.3px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+
+#galaxia6 > p {
+    width: 321px;
+    height: 182px;
+    font-weight: 500;
+    font-size: 19.38px;
+    margin-top: 16px;
+    margin-left: 32.5px;
+    margin-right: 32.5px;
+}

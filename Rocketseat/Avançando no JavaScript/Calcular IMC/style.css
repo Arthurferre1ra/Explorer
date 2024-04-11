@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #040924;
+}
+
+body,
+input,
+label {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+}
+
+.alert-error.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.alert-error {
+    background: #F03E3E;
+    padding: 8px 56.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    transform: translateY(-39px);
+    transition: .5s;
+}
+
+main {
+    width: min(42.6rem, 90%);
+    height: 35.0rem;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 15rem;
+    padding: 5.8rem 6.4rem;
+
+    border-radius: 6px;
+    
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 3.2rem;
+    text-align: start;
+}
+
+label {
+    font-size: 1.4rem;
+    color: #00453A;
+    
+}
+
+input {
+    width: 80%;
+    border: 1px solid #02799D;
+    border-radius: 4px;
+    background: #DCE2E9;
+
+    padding: 1.6rem;
+    margin-top: 8px;
+}
+
+#input-wrapper {
+    margin-bottom: 1.6rem;
+}
+
+button {
+    width: 37.4rem;
+    background: #0394c0;
+    border: none;
+    border-radius: 4px;
+    padding: 1.6rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #037ba0;
+}
+
+/*modal*/
+.modal-wrapper.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-wrapper {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    display: grid;
+    place-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    position: relative;
+}
+
+.modal button {
+    background: none;
+    border: none;
+
+    position: absolute;
+    
+    top: -7rem;
+    right: -20rem;
+    cursor: pointer;
+
+    transition: transform .3s;
+}
+
+.modal button:hover {
+    transform: scale(1.1);
+}
+
+.modal > h2 {
+    color: #040924;
+    background-color: #FFFFFF;
+    padding: 5rem;
+}

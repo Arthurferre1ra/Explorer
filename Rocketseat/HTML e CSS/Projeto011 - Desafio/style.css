@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-blue-500: #065E7C;
+    --color-white: #FFFFFF;
+}
+
+
+
+html, body, input {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 43.0rem;
+
+}
+
+header {
+    background-color: var(--color-blue-500);
+    display: flex;
+    padding: 1.6rem 2.0rem;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#search {
+    width: 24.1rem;
+    padding: 1.2rem 1.4rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-white);
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+#input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+main {
+    display: grid;
+    margin-bottom: 7.9rem;
+}
+
+
+
+#gato-main {
+    width: 40.6rem;
+    height: 21.9rem;
+}
+
+#action {
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-left: 15px;
+}   
+
+#action-buttons {
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+#content {
+    width: 35.2rem;
+    height: 75rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#container-2 {
+    display: grid;
+    width: 38.4rem;
+    height: 56.6rem;
+    margin-top: 4.2rem;
+    margin-left: 15px;
+}
+
+section {
+    padding-top: 3.2rem;
+    
+}
+
+#gato-1, #gato-2, #gato-3, #gato-4, #gato-5 {
+    display: flex;
+    gap: 3.2rem;
+    width: 38.3rem;
+    height: 8.4rem;
+    margin-bottom: 3rem;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#about > p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.6rem;
+    font-weight: 600;
+    background-color: var(--color-blue-500);
+    bottom: 0;
+    color: var(--color-white);
+    margin-top: 80px;
+}
+
+@media (min-width: 500px) {
+    body {
+        display: grid;
+        max-width: 1890px;
+        height: 642.7px;
+        margin: 0;
+        
+    }
+
+    header {
+        width: 99.1vw;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+
+    #search {
+        width: 1400px;
+    }
+
+    #page {
+        margin: 44px 110px 39px 112px;
+        display: flex;
+    }
+
+    #main {
+        display: flex
+    }
+
+    #gato-main {
+        width: 900px;
+        height: 505px;
+        margin-top: 44px;
+    }
+
+    #action {
+        display: flex;
+        
+    }
+
+    #action > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #action-buttons {
+        padding-left: 455px;
+    }
+
+    #content {
+        width: 803px;
+        height: 364px;
+        
+    }
+
+    #container-2 {
+        margin-left: 70px;
+    }
+
+}
+
+
+
+
+

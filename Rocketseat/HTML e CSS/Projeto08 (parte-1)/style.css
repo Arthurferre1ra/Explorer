@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #F9F4FB;
+    font-family: 'Source Serif 4';
+}
+
+main {
+    color: #A54328;
+    max-width: 31.9rem;
+    margin: 53px 37px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.834rem;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 4.677rem;
+    margin-bottom: 4.677rem;
+}
+
+#sobre {
+    margin-bottom: 3.4rem;
+    font-size: 1.417rem;
+}
+
+#mode {
+    margin-bottom: 3.614rem;
+}
+
+#right-div {
+    font-size: 1.417rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+ol {
+    margin-top: 2.0rem;
+}
+
+#preparo {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 2.4rem;
+    width: 13.3rem;
+    height: 4.5rem;
+    border: 1px solid #A54328;
+    border-radius: 8px;
+    background-color: #A54328;
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+
+@media (min-width: 500px) {
+    body {
+        background: #E1E1E6;
+    }
+
+    main {
+        max-width: 1149px;
+        height: 642.7px;
+        display: flex;
+        justify-content: center;
+        margin-left: 146px;
+        margin: 95px 146px;
+        margin-left: 290px;
+    }
+
+    #left-div {
+        width: 435px;
+        margin-right: 189px;
+    }
+
+    #right-div {
+        width: 525px;
+        
+    }
+
+
+}
+
