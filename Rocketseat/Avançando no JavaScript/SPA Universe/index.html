@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPA Universe</title>
+</head>
+<body>
+    
+    <div class="exploration">
+        <nav class="navegation">
+            <img src="images/logo (2).svg" alt="logo-spa-universe">
+            <a href="/" onclick="route()"><span>Home</span></a>
+            <a href="/the-universe" onclick="route()">O universo</a>
+            <a href="/exploration" onclick="route()">Exploração</a>
+        </nav>
+
+        <div class="center">
+            <h1>Explore o universo</h1>
+            <button><a href="/the-universe" onclick="route()"><img src="images/Hover=off.png"></a></button>
+        </div>
+    </div>
+
+    <div id="app"></div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
