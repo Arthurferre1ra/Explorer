@@ -204,4 +204,44 @@ Obtive diversos aprendizados durante esse Stage:
 - Mudar a visibilidade do repositório;
 - Criar e customizar o README;
 
+## 💻 Stage 8 - Backend
 
+Obtive diversos aprendizados durante esse Stage:
+- O que é API;
+- O que é o Node.js;
+- Onde podemos utilizar o Node.js;
+- Vantagens do Node.js;
+- O que é a v8 Engine;
+- Como funciona o Node.js;
+- Iniciar um projeto Node.js;
+- Adicionar Express no projeto;
+- O que é a pasta `node_modules`;
+- Rotas;
+- Métodos HTTP;
+- Route Params;
+- Query Params;
+- Instação e utilização do `nodemon`;
+- Instalação e utilização do `Insomnia`;
+- Body Params;
+- Controller;
+- HTTP Status Codes;
+- Middleware;
+- Lidar com erros na API;
+- O que é um banco de dados;
+- Como conectar um banco de dados SQLite;
+- Utilização da ferramenta Beekeper Studio;
+- Comandos DML;
+- Comandos DDL;
+- Migrations;
+- Fazer consultas no SQL;
+- Criptografar senhas no banco de dados;
+- Validações no back-end;
+- SQL Query Builder;
+- Instalar Knex/js;
+- Configurar Knex.js;
+- NPM vs NPX;
+- Primary Key;
+- Foreign Key;
+- Cardinalidade;
+- Inner Join;
+- Map e Filter;
